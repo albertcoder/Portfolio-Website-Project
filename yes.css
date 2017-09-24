@@ -12,9 +12,10 @@
   left: 10px;
 }
 
-hgroup {
+#page_title, #page_subheading {
   text-align: center;
 }
+
 article {
   display: inline;
 }

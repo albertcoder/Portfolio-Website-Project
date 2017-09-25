@@ -16,10 +16,13 @@
 article {
     display: inline;
 }
-img, embed, object, video {
+img, 
+embed, 
+object, 
+video {
     max-width: 100%;
 }
-IMG.displayed {
+img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto;

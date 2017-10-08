@@ -10,7 +10,7 @@
     top: 18px;
     left: 10px;
 }
-#page_title, #page_subheading, #section_heading {
+#page_title, #page_subheading, #section_heading, p{
     text-align: center;
 }
 article {

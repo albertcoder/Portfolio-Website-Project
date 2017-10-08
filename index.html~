@@ -12,33 +12,51 @@
 </head>
 
 <body>
-    <header class="header">
-        <img src="img/logo.png" alt="logo">
-    </header>
-    <h1 id="page_title">Albert Snowlove</h1>
-    <h3 id="page_subheading">Full Stack Web Developer</h3>
-    <section id="main_img">
-        <h4 id="section_heading">An endeavor to bridge the gap between frontend and backend</h4>
-        <img class="displayed" src="img/sai-kiran-anagani-61187.jpg" alt="Photo by Sai Kiran Anagani on Unsplash" title="Photo by Sai Kiran Anagani on Unsplash" />
-    </section>
-    <p>These days the recruiters are looking for software / web developers who are ambidexterous so far frontend and backend development is concerned. <br>This saves them both time and money regardless of the fact the workload is still distributed among the team but it's just handy if the programmer is aquainted with both the facets of web.</p>
-<div class="container-fluid bg-3 text-center"> 
-  <h3>Featured work</h3>
-  <div class="row">
-    <div class="col-sm-4">
-      <p><b>Fruit splash</b></p>
-      <img src="img/igor-ovsyannykov-22309.jpg" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4">
-      <p><b>Waves adrenaline</b></p>
-      <img src="img/jeremy-bishop-34010.jpg" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Solace</p>
-      <img src="img/joshua-earle.png" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
+
+    <div class="container">
+        <!--Row for logo and name-->
+        <div class="row">
+            <div class="col-md-12">
+                <header class="header">
+                    <img src="img/logo.png" alt="logo">
+                </header>
+                <h1 id="page_title">Albert Snowlove</h1>
+                <h3 id="page_subheading">Full Stack Web Developer</h3>
+            </div>
+        </div>
+        <!--Row for banner-->
+        <div class="row">
+            <div class="col-md-12">
+                <section id="main_img">
+                    <h4 id="section_heading">An endeavor to bridge the gap between frontend and backend</h4>
+                    <img class="displayed" src="img/sai-kiran-anagani-61187.jpg" alt="Photo by Sai Kiran Anagani on Unsplash" title="Photo by Sai Kiran Anagani on Unsplash" />
+                </section>
+            </div>
+        </div>
+        <!--Row for text-->
+        <div class="row">
+            <div class="col-md-12">
+                <p>These days the recruiters are looking for software / web developers who are ambidexterous so far frontend and backend development is concerned. This saves them both time and money regardless of the fact the workload is still distributed among the team but it's just handy if the programmer is aquainted with both the facets of web.</p>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-3 text-center">
+            <h3>Featured work</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><b>Fruit splash</b></p>
+                    <img src="img/igor-ovsyannykov-22309.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4">
+                    <p><b>Waves adrenaline</b></p>
+                    <img src="img/jeremy-bishop-34010.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4">
+                    <p><b>Solace</b></p>
+                    <img src="img/joshua-earle.png" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

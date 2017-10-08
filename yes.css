@@ -4,25 +4,29 @@
     height: 50px;
     background: #555;
 }
+
 .header h1 {
     display: inline-block;
     position: relative;
     top: 18px;
     left: 10px;
 }
-#page_title, #page_subheading, #section_heading, p{
+
+#page_title, 
+#page_subheading, 
+#section_heading, 
+p {
     text-align: center;
 }
-article {
-    display: inline;
-}
+
 img, 
 embed, 
 object, 
 video {
     max-width: 100%;
 }
-img.displayed {
+
+.displayed img {
     display: block;
     margin-left: auto;
     margin-right: auto;

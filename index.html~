@@ -5,7 +5,7 @@
     <title>Portfolio Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/yes.css" media="screen" />
+    <link rel="stylesheet" href="css/yes.css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -24,6 +24,7 @@
                 <h3 id="page_subheading">Full Stack Web Developer</h3>
             </div>
         </div>
+
         <!--Row for banner-->
         <div class="row">
             <div class="col-md-12">
@@ -33,6 +34,7 @@
                 </section>
             </div>
         </div>
+
         <!--Row for text-->
         <div class="row">
             <div class="col-md-12">
@@ -40,23 +42,30 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-3 text-center">
-            <h3>Featured work</h3>
-            <div class="row">
-                <div class="col-sm-4">
-                    <p><b>Fruit splash</b></p>
-                    <img src="img/igor-ovsyannykov-22309.jpg" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Waves adrenaline</b></p>
-                    <img src="img/jeremy-bishop-34010.jpg" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Solace</b></p>
-                    <img src="img/joshua-earle.png" class="img-responsive" style="width:100%" alt="Image">
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Featured work</h3>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <p><b>Fruit splash</b></p>
+                <img src="img/igor-ovsyannykov-22309.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+
+            <div class="col-sm-4">
+                <p><b>Waves adrenaline</b></p>
+                <img src="img/jeremy-bishop-34010.jpg" class="img-responsive" alt="Image">
+            </div>
+
+            <div class="col-sm-4">
+                <p><b>Solace</b></p>
+                <img src="img/joshua-earle.png" class="img-responsive" alt="Image">
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

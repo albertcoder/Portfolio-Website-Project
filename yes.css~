@@ -13,16 +13,13 @@
 #page_title, #page_subheading, #section_heading, p{
     text-align: center;
 }
-article {
-    display: inline;
-}
 img, 
 embed, 
 object, 
 video {
     max-width: 100%;
 }
-img.displayed {
+.displayed img {
     display: block;
     margin-left: auto;
     margin-right: auto;

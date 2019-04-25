@@ -2,6 +2,22 @@
   min-height: 60px;
 }
 
+#logo {
+  margin-left: 32px;
+}
+
+#logo-link {
+  color: black
+}
+
+#contact {
+  margin-right: 47.5px;
+}
+
+#room {
+  margin-top: 35px;
+}
+
 .header h1 {
   display: inline-block;
   position: relative;
